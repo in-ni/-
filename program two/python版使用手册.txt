@@ -1,0 +1,9 @@
+执行wordcount.exe 文件后，
+1、输入txt文件的目录
+2、根据提示输入命令，命令目录如下：
+wc.exe -c,\file.txt 统计字符数
+wc.exe -w,\file.txt 统计单词数
+wc.exe -l,\file.txt 统计行数
+//以下为扩展功能
+wc.exe -z,\file.txt 统计注释行数
+wc.exe -k,\file.txt 统计空行数
