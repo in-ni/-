@@ -108,8 +108,8 @@ BOOL CjuanjianjichuDlg::OnInitDialog()
 	SetIcon(m_hIcon, FALSE);		// 设置小图标
 
 	// TODO: 在此添加额外的初始化代码
-	SetWindowText(_T("WordCount（越）版本V1.2"));
-
+	SetWindowText(_T("WordCount（越）版本V1.3"));
+	
 	return TRUE;  // 除非将焦点设置到控件，否则返回 TRUE
 }
 
@@ -263,6 +263,7 @@ void CjuanjianjichuDlg::OnBnClickedButton2()
 
 void CjuanjianjichuDlg::OnBnClickedButton3()
 {
+	MessageBox(TEXT("                    感谢使用\r\n   傻瓜式Word Count操作系统\r\n  很满意请按确认，满意也按确认\r\n                   (●ˇ∀ˇ●)"), MB_OK);
 	CDialogEx::OnCancel();
 	// TODO: 在此添加控件通知处理程序代码
 
